@@ -26,7 +26,7 @@
             </div>
             <div class="social-links">
               {% for link in social %}
-        			{% assign link_url = link.url | absolute_url %}
+              {% assign link_url = link.url | absolute_url %}
               <a target="_blank" rel="nofollow" href="{{ link.url | relative_url }}" title="{{ link.name }}">
                 <i aria-hidden="true" class="{{ link.icon }}"></i>
               </a>
@@ -37,7 +37,8 @@
             <a target="_blank" href="{{ content.button1.link }}" class="btn">
               <span>{{ content.button1.label }}</span>
             </a>
-            <a href="{{ content.button2.link }}" class="btn-lnk">{{ content.button2.label }}</a>
+            <!-- Navigate to Section #skill-section -->
+            <!-- <a href="{{ content.button2.link }}" class="btn-lnk">{{ content.button2.label }}</a> -->
           </div>
         </div>
         <div class="slide scrolla-element-anim-1 scroll-animate" data-animate="active">
@@ -53,7 +54,7 @@
             <ul>
               {% for item in content.info %}
               <li>
-                <span class="num">
+                <span class="num" style="color: #29a587;">
                   {{ item.num }}
                 </span>
                 <span class="value">

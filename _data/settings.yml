@@ -9,20 +9,24 @@ settings:
 ### Preloader
 preloader:
   logo:
-    image: "assets/img/logo2.png"
-    alt: "Zoé Miller"
+    image: "assets/img/my-logo.png"
+    alt: "Sijan Malla"
 
 ### Header
 header:
   logo:
-    image: "assets/img/logo2.png"
-    alt: "Zoé Miller"
+    image: "assets/img/my-logo.png"
+    alt: "Sijan Malla"
 
 ### Social
 social:
   - title: "Github"
     icon: "fab fa-github"
     url: "https://github.com/season101"
+
+  - title: "Github"
+    icon: "fab fa-linkedin"
+    url: "https://www.linkedin.com/in/sijanmalla/"
 
 ### Footer
 footer:

@@ -10,20 +10,22 @@ hero:
   title: "<b>Sijan</b> Malla"
   before_title: "Hello, <b>my name is</b>"
   after_title: "I am <strong>Software Developer</strong>"
-  description: "From Louisiana, US. I have rich experience in Software Development, also I am good at React, Python and AWS."
+  description: "From Louisiana, US. I have rich experience in full-stack web development with a proven track record as a Team Leader. Skilled in ReactJS, Angular, JavaScript, Flask, Django, MongoDB, DynamoDB, DevOps, Machine Learning, Data Science and AWS. "
   button1:
     label: "Download Resume"
-    link: "https://drive.google.com/"
+    link: "assets/SijanMallaResume.pdf"
   button2:
     label: "My Skills"
     link: "#skills-section"
-  bg_title: "Web Developer"
+  bg_title: "SIJAN MALLA"
   info:
-    - num: "2 <strong>+</strong>"
-      value: "Years of <strong>Experience</strong>"
+    - num: "B.SC"
+      value: "Computer Science"
 
-    - num: "110"
-      value: "Completed <strong>Projects</strong>"
+    - num: "25+"
+      value: "Completed Projects"
+
+    
 
 ### Services [ services ]
 services:

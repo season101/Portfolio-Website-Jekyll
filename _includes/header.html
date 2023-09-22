@@ -1,7 +1,4 @@
-{% assign navigation = site.data.navigation['main'] %}
 {% assign header = site.data.settings['header'] %}
-{% assign social = site.data.settings['social'] %}
-{% assign page_url = page.url | absolute_url %}
 
 <!-- Header -->
 <header class="header">
@@ -12,8 +9,8 @@
 				<!-- logo -->
 				<div class="logo">
 					<a href="{{ site.url }}">
-						<img width="{{ header.logo.width }}" height="{{ header.logo.height }}"
-							src="{{ header.logo.image | relative_url }}" alt="{{ header.logo.alt }}" />
+						<img width="475px" height="475px" src="{{ header.logo.image | relative_url }}"
+							alt="{{ header.logo.alt }}" />
 					</a>
 				</div>
 
