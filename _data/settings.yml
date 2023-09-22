@@ -1,0 +1,45 @@
+# Theme Settings Configuration File
+##
+### use settings.yml file for configure colors, ui, rtl, sidebar, animation options
+
+### Main Settings
+settings:
+  skin: "dark" # select initial skin option: "light" or "dark"
+
+### Preloader
+preloader:
+  logo:
+    image: "assets/img/logo2.png"
+    alt: "Zoé Miller"
+
+### Header
+header:
+  logo:
+    image: "assets/img/logo2.png"
+    alt: "Zoé Miller"
+
+### Social
+social:
+  - title: "Github"
+    icon: "fab fa-github"
+    url: "https://github.com/season101"
+
+### Footer
+footer:
+  developer: "Developed by <strong>Sijan Malla</strong>"
+
+### Portfolio Filters Settings
+portfolio:
+  layout: "list" # select works layout options: "Grid" or "List"
+  filters:
+    - name: "UI UX Design"
+      slug: "ui-ux-design"
+
+    - name: "Photography"
+      slug: "photography"
+
+    - name: "Development"
+      slug: "development"
+
+    - name: "Branding"
+      slug: "branding"
