@@ -10,7 +10,7 @@ hero:
   title: "<b>Sijan</b> Malla"
   before_title: "Hello, <b>my name is</b>"
   after_title: "I am <strong>Software Developer</strong>"
-  description: "From Louisiana, US. I have rich experience in full-stack web development with a proven track record as a Team Leader. Skilled in ReactJS, Angular, JavaScript, Flask, Django, MongoDB, DynamoDB, DevOps, Machine Learning, Data Science and AWS. "
+  description: "From Louisiana, US. I have rich experience in full-stack web development with a proven track record as a Team Leader. Skilled in Web, Cloud, AI/ML and DevOps Technologies. "
   button1:
     label: "Download Resume"
     link: "assets/SijanMallaResume.pdf"
@@ -29,38 +29,31 @@ hero:
 
 ### Services [ services ]
 services:
-  title: "What I Do"
-  # subtitle: "my <b>Services</b>"
-  bg_title: "Services"
+  title: "Proficiencies"
+  bg_title: "Proficiencies"
 
   items:
-    - title: "Web Design &amp; Logo"
-      subtitle: "Web Development"
-      text: "Web designers craft the overall vision &amp; plan for a website layout. Professional logo development: Business, Company, or Personal."
+    - title: "React & Angular"
+      subtitle: "Frontend Development"
+      text: "Craft the overall vision &amp; plan for a website layout with modularity and accessibility in mind."
       button_label: "See Pricing"
       button_link: "#pricing-section"
 
-    - title: "iOS &amp; Android"
-      subtitle: "Apps Development"
-      text: "Design Software applications to run on mobile devices. Modern and mobile-ready application that will help you reach all of your marketing."
+    - title: "Flask & Django"
+      subtitle: "Backend Development"
+      text: "Design secure APIs, Functionality and Scalable Software applications"
       button_label: "See Pricing"
       button_link: "#pricing-section"
 
-    - title: "Unity &amp; Unreal Engine"
-      subtitle: "Game Development"
-      text: "Creating games &amp; describes the design, development and release of a game. Developing unique mobile android and ios games."
+    - title: "DevOps"
+      subtitle: "Software Development"
+      text: "Create end-to-end pipelines for code deployment with logging and observability."
       button_label: "See Pricing"
       button_link: "#pricing-section"
 
-    - title: "Google Ads"
-      subtitle: "Advertising"
-      text: "Advertising services include: Google search result pages, gmails, YouTube and other websites participated in Google Ads program."
-      button_label: "See Pricing"
-      button_link: "#pricing-section"
-
-    - title: "Sound Track"
-      subtitle: "Music Writing"
-      text: "Music copying, writing, creating, transcription and composition services."
+    - title: "AWS & AZURE"
+      subtitle: "Cloud Development"
+      text: "Create well-architected solutions for deploying applications. Utilize SDKs and best practices for cloud services."
       button_label: "See Pricing"
       button_link: "#pricing-section"
 
