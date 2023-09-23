@@ -36,14 +36,14 @@ footer:
 portfolio:
   layout: "list" # select works layout options: "Grid" or "List"
   filters:
-    - name: "UI UX Design"
-      slug: "ui-ux-design"
+    - name: "Web Design"
+      slug: "web-design"
 
-    - name: "Photography"
-      slug: "photography"
+    - name: "Cloud"
+      slug: "cloud"
 
-    - name: "Development"
-      slug: "development"
+    - name: "Data Science & AI/ML"
+      slug: "ds-ai-ml"
 
-    - name: "Branding"
-      slug: "branding"
+    - name: "Software Development"
+      slug: "software-development"
