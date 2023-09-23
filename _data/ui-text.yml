@@ -25,7 +25,7 @@ ui_text:
   message:              "Message"
   your_message:         "Your Message"
   send_message:         "Send Message"
-  accept_terms:         "* Accept the terms and conditions."
+  # accept_terms:         "* Accept the terms and conditions."
   thanks_message:       "Thanks, your message is sent successfully."
   see_project:          "View Project"
   new:                  "new"

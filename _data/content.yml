@@ -66,31 +66,35 @@ skills:
   column1:
     items:
       - label: "AWS" #0-10 progress in dots
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-        value: "85" #0-100 progress in %
-
-      - label: "Python" #0-10 progress in dots
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        text: "AWS Compute, Lambda"
         value: "75" #0-100 progress in %
+
+      - label: "Azure" #0-10 progress in dots
+        text: "Azure DevOps"
+        value: "65" #0-100 progress in %
 
   column2:
     items:
+      - label: "Python" #0-10 progress in dots
+        text: "Flask, Django, Numpy, Beautiful Soup, Jupyter Notebook"
+        value: "85" #0-100 progress in %
+
       - label: "JavaScript" #0-10 progress in dots
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        text: "ES6+, React, Angular"
         value: "75" #0-100 progress in %
 
-      - label: "React" #0-10 progress in dots
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-        value: "70" #0-100 progress in %
+      - label: "Java" #0-10 progress in dots
+        text: "DS&A, SpringBoot, Java Core"
+        value: "75" #0-100 progress in %
 
   column3:
     items:
-      - label: "WordPress" #0-10 progress in dots
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      - label: "Git/Github" #0-10 progress in dots
+        text: "Github Actions, Github Desktop, Git Workflow"
         value: "90" #0-100 progress in %
 
-      - label: "Adobe XD" #0-10 progress in dots
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      - label: "Linux" #0-10 progress in dots
+        text: "Bash Scripting, Ubuntu Server, LAMP Stack, Nginx"
         value: "80" #0-100 progress in %
 
 ### Resume [ resume ]
