@@ -31,9 +31,11 @@
           </h5>
           <div class="history-items">
             {% for item in content.education.items %}
-            <div class="history-item lui-collapse-item{% if forloop.first == true %} opened{% endif %} scrolla-element-anim-1 scroll-animate" data-animate="active">
-              <h6 class="name lui-collapse-btn{% if forloop.first == true %} active{% endif %}">
-                <span>{{ item.name }}</span>
+            <div
+              class="history-item lui-collapse-item{% if forloop.first == true %} opened{% endif %} scrolla-element-anim-1 scroll-animate"
+              data-animate="active">
+              <!-- <h6 class="name lui-collapse-btn{% if forloop.first == true %} active{% endif %}"> -->
+              <span>{{ item.name }}</span>
               </h6>
               <div class="history-content">
                 <div class="subname">
@@ -60,9 +62,10 @@
           </h5>
           <div class="history-items">
             {% for item in content.experience.items %}
-            <div class="history-item lui-collapse-item{% if forloop.first == true %} opened{% endif %} scrolla-element-anim-1 scroll-animate" data-animate="active">
-              <h6 class="name lui-collapse-btn{% if forloop.first == true %} active{% endif %}">
-                <span>{{ item.name }}</span>
+            <div class="history-item lui-collapse-item opened scrolla-element-anim-1 scroll-animate"
+              data-animate="active">
+              <!-- <h6 class="name lui-collapse-btn{% if forloop.first == true %} active{% endif %}"> -->
+              <span>{{ item.name }}</span>
               </h6>
               <div class="history-content">
                 <div class="subname">
