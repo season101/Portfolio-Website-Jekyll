@@ -766,3 +766,9 @@ body.dark-skin {
     background: #1d1d25;
   }
 }
+
+@media screen and (max-width: 762px) {
+  .dark-skin .desc {
+    background: #1d1d25;
+  }
+}
