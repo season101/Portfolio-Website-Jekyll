@@ -36,4 +36,4 @@ jobs:
           AWS_REGION: 'us-east-1'
       - run: |
           echo "Syncing Jekyll site to S3..."
-          aws s3 sync _site/ s3://$AWS_S3_BUCKET
+          aws s3 sync _site/ s3://{{$AWS_S3_BUCKET}}
