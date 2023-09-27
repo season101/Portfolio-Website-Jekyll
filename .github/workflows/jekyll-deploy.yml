@@ -13,7 +13,7 @@ jobs:
           aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: us-east-1
-          
+
       - name: Checkout code
         uses: actions/checkout@v2
 
@@ -33,6 +33,6 @@ jobs:
           echo "Jekyll Site Built Successfully..."
 
       - name: Deploy to S3
-      - run: |
+        run: |
           echo "Syncing Jekyll site to S3..."
           aws s3 sync _site/ s3://${{secrets.AWS_S3_BUCKET}}
