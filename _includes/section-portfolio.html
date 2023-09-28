@@ -37,7 +37,7 @@
                         <div class="works-item scrolla-element-anim-1 scroll-animate" data-animate="active">
                             <div class="image">
                                 <div class="img">
-                                    <a href="{{ work.link }}">
+                                    <a href="{{ work.link }}" target="_blank">
                                         <img decoding="async" src="{{ work.image | relative_url }}"
                                             alt="{{ work.title }}" />
                                         <span class="overlay"></span>
@@ -59,7 +59,9 @@
                                 <div class="text">
                                     <p>{{ work.short_description }}</p>
                                 </div>
-                                <a href="{{ work.link }}" class="lnk">{{ ui_text.see_project }}</a>
+                                {% if work.is_deployed==true %}
+                                <a href="{{ work.link }}" class="lnk" target="_blank">{{ ui_text.see_project }}</a>
+                                {%endif%}
                             </div>
                             <div class="bg-img" style="background-image: url(assets/images/pat-2.png);"></div>
                         </div>

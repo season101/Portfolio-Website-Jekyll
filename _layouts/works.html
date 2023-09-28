@@ -43,7 +43,7 @@ layout: default
             <div class="works-item scrolla-element-anim-1 scroll-animate" data-animate="active">
               <div class="image">
                 <div class="img">
-                  <a href="{{ work.url }}">
+                  <a href="{{ work.link }}" target="_blank">
                     <img decoding="async" src="{{ work.image | relative_url }}" alt="{{ work.title }}">
                     <span class="overlay"></span>
                   </a>
@@ -54,10 +54,19 @@ layout: default
                 <h5 class="name">
                   <a href="{{ work.url }}">{{ work.title }}</a>
                 </h5>
+                <div class="works-github-links">
+                  {% if work.github %}
+                  <a target="_blank" rel="nofollow" href="{{ work.github }}" title="{{ work.github }}">
+                    Repository: <i aria-hidden="true" class="fab fa-github"></i>
+                  </a>
+                  {% endif %}
+                </div>
                 <div class="text">
                   <p>{{ work.short_description }}</p>
                 </div>
-                <a href="{{ work.url }}" class="lnk">{{ ui_text.see_project }}</a>
+                {% if work.is_deployed==true %}
+                    <a href="{{ work.link }}" class="lnk" target="_blank">{{ ui_text.see_project }}</a>
+                {%endif%}
               </div>
               <div class="bg-img" style="background-image: url(/assets/images/pat-2.png);"></div>
             </div>
