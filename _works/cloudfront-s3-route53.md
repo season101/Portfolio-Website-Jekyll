@@ -6,7 +6,7 @@ title: CloudFront+S3 Static Site
 github: https://github.com/season101/Portfolio-Website-Jekyll
 
 is_deployed: false
-link: https://sijancodes.com
+link: https://github.com/season101/Portfolio-Website-Jekyll
 
 category: Cloud
 category_slug: cloud

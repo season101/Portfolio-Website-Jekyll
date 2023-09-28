@@ -13,5 +13,5 @@ category_slug: cloud
 
 
 image: assets/img/works/CICD Architecture Diagram.jpg
-short_description: Angular Application Complete CI/CD using AWS CodePipeline, AWS Code Deploy, AWS Code Build and EC2 instance.
+short_description: Complete CI/CD using AWS CodePipeline, AWS Code Deploy, AWS Code Build and EC2 instance.
 ---
