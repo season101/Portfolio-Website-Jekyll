@@ -3265,6 +3265,22 @@ hr {
 .m-gallery .col-lg-6 {
 	padding: 20px;
 }
+.works-github-links a {
+	margin-top: 0;
+	margin-right: 15px;
+	margin-left: 0;
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+	font-size: 18px;
+	color: #000;
+	font-weight: 300;
+	text-decoration: none;
+}
+
+.works-github-links a:hover {
+	color: #29a587;
+}
 
 
 /**

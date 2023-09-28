@@ -19,16 +19,7 @@ layout: default
 		<!-- Heading -->
 		<div class="m-titles align-center">
 			<div class="m-category scrolla-element-anim-1 scroll-animate" data-animate="active">
-				<a href="blog.html">Branding</a>, <a href="blog.html">UI Design</a>
-				{% assign cat_size = page.category | size %}
-				{% if cat_size != 0 %}
-				{% for category in page.category %}
-				<a
-					href="{{ '/categories' | relative_url }}/{{ category | downcase | url_escape | strip | replace: ' ', '-' }}">{{
-					category }}</a>{% if page.category.last != category and page.category.last != nil %},{% endif %}
-				{% endfor %}
-				{% endif %}
-				/ {{ page.date | date: site.date_format }} / {{ ui_text.by }} <span class="author">{{ author }}</span>
+				{{ page.date | date: site.date_format }} / {{ ui_text.by }} <span class="author">{{ author }}</span>
 			</div>
 			<h1 class="m-title scrolla-element-anim-1 scroll-animate" data-animate="active">
 				{{ page.title }}

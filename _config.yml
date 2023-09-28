@@ -43,12 +43,11 @@ paginate_path: "/blog/page:num/"
 permalink: pretty
 
 # disqus comments
-disqus_comments: "yes" # yes - show disqus comments, no - hide disqus comments
+disqus_comments: "no" # yes - show disqus comments, no - hide disqus comments
 disqus_shortname: "glitche-jekyll-theme" # read more here https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
 
 # formsubmit.io
-formspree_endpoint: "https://formspree.io/f/mnqkgkny" # sign up on https://formspree.io/ and create your form endpoint
-
+formspree_endpoint: "https://formspree.io/f/mnqkgkny"
 # collections
 collections:
   works:
@@ -96,3 +95,7 @@ sass:
   style: compressed
 
 markdown:  kramdown
+
+kramdown:
+  gfm_quirks: [paragraph_end]
+  syntax_highlighter: coderay

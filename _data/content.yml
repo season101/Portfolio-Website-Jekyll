@@ -9,7 +9,7 @@ hero:
   image_alt: "Sijan Malla"
   title: "<b>Sijan</b> Malla"
   before_title: "Hello, <b>my name is</b>"
-  after_title: "I am <strong>Software Developer</strong>"
+  after_title: "I am a <strong>Software Developer</strong>"
   description: "From Louisiana, US. I have rich experience in full-stack web development with a proven track record as a Team Leader. Skilled in Web, Cloud, AI/ML and DevOps Technologies. "
   button1:
     label: "Download Resume"
