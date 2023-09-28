@@ -588,6 +588,11 @@ body.dark-skin {
 * Section Project Details
 **/
 
+.dark-skin .works-github-links a {
+  color: #fff;
+}
+
+
 /**
 * Section Image Large
 **/
@@ -772,3 +777,4 @@ body.dark-skin {
     background: #1d1d25;
   }
 }
+

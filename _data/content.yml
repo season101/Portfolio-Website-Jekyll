@@ -66,11 +66,11 @@ skills:
   column1:
     items:
       - label: "AWS" #0-10 progress in dots
-        text: "AWS Compute, Lambda"
+        text: "EC2, CodePipeline, Lambda, Route 53, S3, RDS..."
         value: "75" #0-100 progress in %
 
       - label: "Azure" #0-10 progress in dots
-        text: "Azure DevOps"
+        text: "Azure DevOps, VMs, Blob Storage, Functions..."
         value: "65" #0-100 progress in %
 
   column2:
@@ -97,6 +97,9 @@ skills:
         text: "Bash Scripting, Ubuntu Server, LAMP Stack, Nginx"
         value: "80" #0-100 progress in %
 
+      - label: 'Containers'
+        text: 'Docker, Docker Compose'
+        value: "70"
 ### Resume [ resume ]
 resume:
   title: "History"

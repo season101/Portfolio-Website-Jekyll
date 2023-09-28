@@ -12,6 +12,6 @@ category: Cloud
 category_slug: cloud
 
 
-image: assets/img/works/CloudfrontDistribution.drawio.png
+image: assets/img/works/CloudfrontDistribution.drawio.jpg
 short_description: Deployment of Static Sites in AWS using CloudFront, S3, Route 53 and AWS Certificate Manager.
 ---
