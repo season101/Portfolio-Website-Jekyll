@@ -8,7 +8,7 @@ github: https://github.com/season101/Unsplash-Images-API
 is_deployed: true
 link: https://unsplash-images.sijancodes.com
 
-category: Data WEB DESIGN
+category: WEB DESIGN
 category_slug: web-design
 
 
