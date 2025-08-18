@@ -25,8 +25,6 @@ hero:
     - num: "25+"
       value: "Completed Projects"
 
-    
-
 ### Services [ services ]
 services:
   title: "Proficiencies"
@@ -97,8 +95,8 @@ skills:
         text: "Bash Scripting, Ubuntu Server, LAMP Stack, Nginx"
         value: "80" #0-100 progress in %
 
-      - label: 'Containers'
-        text: 'Docker, Docker Compose'
+      - label: "Containers"
+        text: "Docker, Docker Compose"
         value: "70"
 ### Resume [ resume ]
 resume:
@@ -114,14 +112,21 @@ resume:
         period: "August, 2019 - May, 2023"
         # text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 
-
   experience:
     title: "Experience"
     items:
-      - name: "Associate Professional Application Developer-III"
-        subname: "DXC Technology LLC"
-        period: "June 2023 - <b>Present</b>"
+      - name: "Business Analyst"
+        subname: "SaiQuest LLC"
+        period: "September 2024 - <b>Present</b>"
+
+      - name: "Software Engineer Consultant at Meta"
+        subname: "Price Waterhouse(PWC) at Meta"
+        period: "October 2023 - March 2024"
         # text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+
+      - name: "Sr. Analyst III Software Engineering"
+        subname: "DXC Technology LLC"
+        period: "August 2022 - May 2023"
 
       - name: "Software Engineer Intern"
         subname: "DXC Technology LLC"
@@ -132,7 +137,6 @@ resume:
         subname: "ULM Computing Center"
         period: "July 2020 - June 2022"
         # text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-
 
 ### Testimonials [ testimonials ]
 testimonials:
@@ -165,7 +169,6 @@ testimonials:
       name: "Paul Freeman"
       role: "Photographer"
       text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-
 
 ### Pricing [ pricing ]
 pricing:
@@ -229,7 +232,6 @@ pricing:
         label: "Start Project"
         link: "#contact-section"
 
-
 ### Blog [ blog ]
 #items generates from dir /_posts/*
 blog:
@@ -239,7 +241,6 @@ blog:
   button:
     label: "View Blog"
     link: "blog/"
-
 
 ### Contact [ contacts ]
 contacts:
