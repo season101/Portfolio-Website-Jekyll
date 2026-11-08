@@ -9,8 +9,8 @@ hero:
   image_alt: "Sijan Malla"
   title: "<b>Sijan</b> Malla"
   before_title: "Hello, <b>my name is</b>"
-  after_title: "I am a <strong>Software Developer</strong>"
-  description: "From Louisiana, US. I have rich experience in full-stack web development with a proven track record as a Team Leader. Skilled in Web, Cloud, AI/ML and DevOps Technologies. "
+  after_title: "I am a <strong>Software &amp; Data Engineer</strong>"
+  description: "From Louisiana, US. M.S. Computer Science student at Louisiana Tech focusing on Data Science and AI, with 3+ years of experience as a software engineer, data engineer, and team lead. 4x AWS Certified and 1x Azure Certified."
   button1:
     label: "Download Resume"
     link: "assets/SijanMallaResume.pdf"
@@ -19,8 +19,8 @@ hero:
     link: "#skills-section"
   bg_title: "SIJAN MALLA"
   info:
-    - num: "B.SC"
-      value: "Computer Science"
+    - num: "M.S."
+      value: "Computer Science (2028)"
 
     - num: "25+"
       value: "Completed Projects"
@@ -82,7 +82,7 @@ skills:
         value: "75" #0-100 progress in %
 
       - label: "Java" #0-10 progress in dots
-        text: "DS&A, SpringBoot, Java Core"
+        text: "DS&A, Java Core"
         value: "75" #0-100 progress in %
 
   column3:
@@ -107,35 +107,39 @@ resume:
   education:
     title: "Education"
     items:
+      - name: "Louisiana Tech University"
+        subname: "Master of Science in Computer Science"
+        period: "September 2026 - May 2028 <b>(Expected)</b>"
+
       - name: "University of Louisiana at Monroe"
-        subname: "Bachelors of Computer Science"
-        period: "August, 2019 - May, 2023"
-        # text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        subname: "Bachelor of Science in Computer Science"
+        period: "August 2019 - May 2023"
+        text: "GPA 3.62/4.00, Cum Laude"
 
   experience:
     title: "Experience"
     items:
-      - name: "Business Analyst"
+      - name: "Data Engineer"
         subname: "SaiQuest LLC"
-        period: "September 2024 - <b>Present</b>"
+        period: "September 2024 - May 2026"
 
-      - name: "Software Engineer Consultant at Meta"
-        subname: "Price Waterhouse(PWC) at Meta"
+      - name: "Software Engineering Consultant (Contract), on Assignment at Meta"
+        subname: "PricewaterhouseCoopers (PwC)"
         period: "October 2023 - March 2024"
         # text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 
-      - name: "Sr. Analyst III Software Engineering"
-        subname: "DXC Technology LLC"
-        period: "August 2022 - May 2023"
+      - name: "Sr. Analyst III, Software Engineering"
+        subname: "DXC Technology"
+        period: "June 2023 - September 2024"
 
-      - name: "Software Engineer Intern"
-        subname: "DXC Technology LLC"
-        period: "August 2022 - May 2023"
+      - name: "Undergraduate Solution Architect Intern"
+        subname: "DXC Technology"
+        period: "June 2022 - May 2023"
         # text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 
       - name: "IT Support Technician"
         subname: "ULM Computing Center"
-        period: "July 2020 - June 2022"
+        period: "July 2020 - August 2022"
         # text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 
 ### Testimonials [ testimonials ]
@@ -255,7 +259,7 @@ contacts:
 
     - label: "Email"
       icon: "far fa-envelope"
-      text: "sijanstudycomputers@gmail.com"
+      text: "sijan.malla101@gmail.com"
 
 ### Portfolio [ portfolio ]
 #items generates from dir /_works/*
